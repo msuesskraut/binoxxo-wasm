@@ -2,8 +2,16 @@
 name = "binoxxo-wasm"
 version = "0.1.0"
 authors = ["Martin Suesskraut <martin.suesskraut@gmail.com>"]
+description = "WASM interface to binoxxo crate"
+repository = "https://github.com/msuesskraut/binoxxo-wasm.git"
+readme = "Readme.md"
+keywords = ["wasm", "binoxxo", "puzzle", "puzzle-game", "game", "puzzle-generator"]
+categories = ["games"]
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
 
 [dependencies]
-
 binoxxo = "0.1"
 wasm-bindgen = "0.2"
