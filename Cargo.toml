@@ -1,0 +1,9 @@
+[package]
+name = "binoxxo-wasm"
+version = "0.1.0"
+authors = ["Martin Suesskraut <martin.suesskraut@gmail.com>"]
+
+[dependencies]
+
+binoxxo = "0.1"
+wasm-bindgen = "0.2"
