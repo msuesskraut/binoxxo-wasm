@@ -3,7 +3,7 @@
 extern crate binoxxo_wasm;
 extern crate wasm_bindgen_test;
 
-use binoxxo_wasm::create_puzzle;
+use binoxxo_wasm::{create_puzzle, Board, BOARD_SIZE};
 use std::str::FromStr;
 use std::str::pattern::Pattern;
 use wasm_bindgen_test::*;
