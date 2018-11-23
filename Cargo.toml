@@ -13,7 +13,7 @@ license = "MIT"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-binoxxo = "0.1"
+binoxxo = { version = "0.1", features = ["wasm-bindgen"] }
 wasm-bindgen = "0.2"
 
 [dev-dependencies]
