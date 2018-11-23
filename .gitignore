@@ -5,3 +5,4 @@ Cargo.lock
 wasm-pack.log
 bin/wasm-bindgen.exe
 bin/wasm-bindgen-test-runner.exe
+bin/geckodriver.exe
