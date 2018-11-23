@@ -4,7 +4,6 @@ extern crate wasm_bindgen_test;
 extern crate binoxxo_wasm;
 
 use binoxxo_wasm::check_board;
-use std::str::FromStr;
 use wasm_bindgen_test::*;
 
 #[wasm_bindgen_test]
